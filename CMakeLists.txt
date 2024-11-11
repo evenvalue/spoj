@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Wshadow -Wformat=2 -Wfloat-equal -Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual -Wcast-align -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC -D_FORTIFY_SOURCE=2 -fsanitize=address -fsanitize=undefined -fno-sanitize-recover=all -fstack-protector")
 
 add_executable(AGGRCOW AGGRCOW.cpp)
+add_executable(COCONUTS COCONUTS.cpp)
 add_executable(COMDIV COMDIV.cpp)
 add_executable(DQUERY DQUERY.cpp)
 add_executable(IITKWPCG IITKWPCG.cpp)
